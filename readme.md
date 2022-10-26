@@ -6,3 +6,5 @@ Project repository for virtualization term project. Kubernetes deployment of fro
 ### Link to Frontend and Backend repos
 1. Backend: https://github.com/blastomussa/soap-recipe-api
 2. Frontend: https://github.com/blastomussa/react-app
+
+![Virtualization Architecture](https://github.com/blastomussa/k8s-project/blob/master/architecture/k8s-architecture.png)

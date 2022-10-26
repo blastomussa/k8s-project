@@ -1,7 +1,7 @@
 # Kubernetes Service
 resource "kubernetes_service" "api" {
   metadata {
-    name      = "soap-recipe-api-svc"
+    name      = "api-svc"
     namespace = "backend"
   }
   spec {
@@ -20,7 +20,7 @@ resource "kubernetes_service" "api" {
 
 resource "kubernetes_service" "react" {
   metadata {
-    name      = "react-app-svc"
+    name      = "react-svc"
     namespace = "frontend"
   }
   spec {
