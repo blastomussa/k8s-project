@@ -1,0 +1,2 @@
+# TO SHELL INTO POD
+# kubectl -n {NAMESPACE} exec -it {POD_NAME} -- /bin/bash
