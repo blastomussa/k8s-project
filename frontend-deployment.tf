@@ -47,11 +47,11 @@ resource "kubernetes_deployment" "react" {
           }
         }
         volume {
-            name = "shared-volume"
-            host_path {
-              path = "/Users/joecourtney/shared-volume"
-            }
+          name = "shared-volume"
+          host_path {
+            path = "/Users/joecourtney/shared-volume"
           }
+        }
       }
     }
   }
