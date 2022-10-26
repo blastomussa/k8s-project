@@ -9,7 +9,7 @@ resource "kubernetes_deployment" "api" {
   }
 
   spec {
-    replicas = 2
+    replicas = 3
     selector {
       match_labels = {
         App = "SoapAPI"
